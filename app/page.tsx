@@ -4,20 +4,20 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin"
+      label: "Start Task!"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/0.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
-  title: 'Cosmic Cowboys',
-  description: 'A frame telling the story of Cosmic Cowboys',
+  title: 'BANGCODE',
+  description: 'BANGCODE ($BCD) AIRDROPS!',
   openGraph: {
-    title: 'Cosmic Cowboys',
-    description: 'A frame telling the story of Cosmic Cowboys',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`],
+    title: 'BANGCODE',
+    description: 'BANGCODE ($BCD) AIRDROPS!',
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/0.png`],
   },
   other: {
     ...frameMetadata,
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Cosmic Cowboys</h1>
+      <h1>BANGCODE ($BCD) AIRDROPS!</h1>
     </>
   );
 }
