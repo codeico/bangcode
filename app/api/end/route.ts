@@ -14,9 +14,9 @@ export async function POST(req: NextRequest): Promise<Response> {
     path = "";
   }
   const headers = new Headers();
-  headers.set("Location", `${process.env.NEXT_PUBLIC_BASE_URL}/`);
+  headers.set("Location", `https://bangcode.vercel.app/`);
   const response = NextResponse.redirect(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/${path}`,
+    `https://bangcode.vercel.app/${path}`,
     {
       headers: headers,
       status: 302,

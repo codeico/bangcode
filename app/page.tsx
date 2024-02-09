@@ -7,8 +7,8 @@ const frameMetadata = getFrameMetadata({
       label: "Start Task!"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`,
-  post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
+  image: `https://amethyst-dear-zebra-9.mypinata.cloud/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`,
+  post_url: `https://bangcode.vercel.app/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BANGCODE',
     description: 'BANGCODE ($BCD) AIRDROPS!',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`],
+    images: [`https://amethyst-dear-zebra-9.mypinata.cloud/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`],
   },
   other: {
     ...frameMetadata,
