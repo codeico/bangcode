@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Start Task!"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BANGCODE',
     description: 'BANGCODE ($BCD) AIRDROPS!',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/0.png`],
   },
   other: {
     ...frameMetadata,

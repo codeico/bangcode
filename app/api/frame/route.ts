@@ -11,7 +11,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       return new NextResponse(`<!DOCTYPE html><html><head>
     <title>Claim More!</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/7.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/7.png" />
     <meta property="fc:frame:button:1" content="Claim More!" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:button:2" content="Visit Website" />
@@ -22,7 +22,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTwZxvMmcEyhFHxis9SZC2E33jsA5M7fZU5nf28o3mXWP/${id}.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/${id}.png" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=${nextId}" />
   </head></html>`);
