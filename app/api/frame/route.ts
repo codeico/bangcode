@@ -11,7 +11,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       return new NextResponse(`<!DOCTYPE html><html><head>
     <title>Claim More!</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://amethyst-dear-zebra-9.mypinata.cloud/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/7.png" />
+    <meta property="fc:frame:image" content="https://codeico.id/nft/7.png" />
     <meta property="fc:frame:button:1" content="Claim More!" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:button:2" content="Visit Website" />
@@ -22,7 +22,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://amethyst-dear-zebra-9.mypinata.cloud/ipfs/QmfZFeAQgjgzxoS44DxjppKn1E1wSQnGAbjbFRTQ6uxFBC/${id}.png" />
+    <meta property="fc:frame:image" content="https://codeico.id/nft/${id}.png" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="https://bangcode.vercel.app/api/frame?id=${nextId}" />
   </head></html>`);
