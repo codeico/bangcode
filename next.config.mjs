@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/bangcode',
-        destination: 'https://bangcode.id',
+        destination: 'https://codeico.id',
         permanent: false
       },
       {

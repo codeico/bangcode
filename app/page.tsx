@@ -27,6 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      <meta property="fc:frame:image" content="https://codeico.id/nft/0.png" />
       <h1>BANGCODE ($BCD) AIRDROPS!</h1>
     </>
   );
