@@ -9,8 +9,8 @@ const nextConfig = {
         permanent: false
       },
       {
-        source: '/pinatacloud',
-        destination: 'https://bangcode.vercel.app',
+        source: '/visit',
+        destination: 'https://warpcast.com/~/compose?text=LFG%20$BCD!%20%F0%9F%94%A5&embeds[]=https://bangcode.vercel.app',
         permanent: false
       }
     ]
