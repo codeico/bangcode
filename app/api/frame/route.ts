@@ -52,7 +52,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image" content="https://codeico.id/nft/${id}.png" />
     <meta property="fc:frame:button:1" content="DONE!!" />
     <meta property="fc:frame:button:2" content="Recast!!" />
-    <meta property="fc:frame:button:1:action" link="https://bangcode.vercel.app/api/frame?id=${nextId}" />
+    <meta property="fc:frame:button" link="https://bangcode.vercel.app/api/frame?id=${nextId}" />
     <meta property="fc:frame:button:2:action" link="https://warpcast.com/~/compose?text=LFG%20$BCD!&embeds[]=https://bangcode.vercel.app" />
   </head></html>`);
   }
